@@ -1,4 +1,4 @@
-// EDIT THIS LIST. Add one object per project.
+
 const projects = [
   {
     name: "Personal Portfolio Website",
@@ -22,6 +22,14 @@ const projects = [
     description: "[One sentence on what this page shows.]",
     stack: "HTML",
     repo: "https://github.com/cervanteschrissa-ship-it/webdev-week01-Chrissa-Cervantes",
+    demo: ""
+  },
+  {
+    name: "Global Pokédex Database API",
+    tag: "Team project with Timothy Alvarez",
+    description: "Backend service for a Pokémon database with login, list-all, and add-Pokémon endpoints. [Your part, e.g. wrote the add-Pokémon endpoint.]",
+    stack: "Java, Spring Boot, REST API",
+    repo: "https://github.com/timothyalvarez76-max/pokedex",
     demo: ""
   }
 ];
