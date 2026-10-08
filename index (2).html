@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chrissa Mae B. Cervantes | Portfolio</title>
+  <meta name="description" content="Portfolio of Chrissa Mae B. Cervantes. Web development and UI design projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#top">Chrissa Cervantes</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme" type="button" aria-label="Switch light or dark theme">Dark</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hello">Hi, I'm</p>
+        <h1>Chrissa Mae B. Cervantes</h1>
+        <p class="lead">Student building web pages and designing clean, easy-to-use interfaces.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">See my projects</a>
+          <a class="btn ghost" href="resume.pdf">Download resume</a>
+        </div>
+      </div>
+      <div class="avatar">
+        <!-- Put your photo in the repo as photo.jpg. Until then, initials show. -->
+        <img src="photo.jpg" alt="Photo of Chrissa" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'CM'}))">
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>[Write 2–3 sentences: what you study at (your university), what you enjoy making, and what you want to learn next.]</p>
+      <h3>Skills</h3>
+      <ul class="pills">
+        <li>UI design</li><li>Prototyping</li><li>Visual design</li>
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Laravel Blade</li>
+        <li>Java</li><li>C</li><li>C#</li><li>Python</li><li>COBOL</li><li>Git</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="project-list" class="grid"></div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <p class="when">[Month Year] – [Month Year]</p>
+          <h3>[Job title, e.g. Barista]</h3>
+          <p>[Coffee shop name]. [One sentence on what you did, e.g. took orders and handled payments accurately.]</p>
+        </li>
+        <li>
+          <p class="when">[Start year] – Present</p>
+          <h3>[Course]</h3>
+          <p>[Your University]</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Open to internships and entry-level roles in web development and UI design.</p>
+      <div class="actions">
+        <a class="btn" href="mailto:Cervanteschrissa@gmail.com">Email me</a>
+        <a class="btn ghost" href="https://github.com/cervanteschrissa-ship-it">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Chrissa Mae B. Cervantes</footer>
+  <script src="script.js"></script>
+</body>
+</html>
